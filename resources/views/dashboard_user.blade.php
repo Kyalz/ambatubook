@@ -30,7 +30,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Homee</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-md-8">
                     <h2>Judul Buku</h2>
-                    <p><strong>Kategori:</strong> Fiksi</p>
+                    <p><strong>Kategori:</strong>Buatan</p>
                     <p><strong>Penulis:</strong> Nama Penulis</p>
                     <p><strong>Penerbit:</strong> Nama Penerbit</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget velit vitae nunc fermentum posuere.</p>
