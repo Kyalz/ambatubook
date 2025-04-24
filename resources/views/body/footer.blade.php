@@ -16,10 +16,12 @@
         text-align: center;
         align-items: center;
         padding: 30px;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
         gap: 100px;
         justify-content: space-between;
+        justify-content: center;
+        color: white;
     }
 
     .alamat{
@@ -38,12 +40,18 @@
 
     .halaman li a {
         text-decoration: none;
-        color: black;
+        color: white;
+    }
+
+    .halaman li a:hover{
+        color: rgb(53, 135, 168);
+
     }
 
     .head{
         margin-bottom: 20px;
         font-size: 20px;
+        font-weight: 500;
     }
 </style>
 

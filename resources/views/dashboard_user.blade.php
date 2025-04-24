@@ -26,8 +26,10 @@
         }
 
         .first{
-            letter-spacing: 5px;
-            font-size: 30px;
+            letter-spacing: 3px;
+            font-size: 35px;
+            color: rgb(137, 204, 231);
+            font-weight: 600;
         }
 
         .second{
@@ -145,6 +147,11 @@
           border-radius: 20px;
         }
 
+        .footer{
+            margin-top: 50px;
+        }
+
+        
 
     </style>
 </head>

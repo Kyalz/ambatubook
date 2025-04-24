@@ -66,8 +66,8 @@
     }
 
     .collapse > .navbar .nav-item .nav-link:hover {
-        color: rgb(86, 187, 172);
-        border: 2px solid rgb(86, 187, 172);
+        color: rgb(53, 135, 168);
+        border: 2px solid rgb(53, 135, 168);
     }
 </style>
 
