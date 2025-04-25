@@ -6,7 +6,7 @@
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+                    <li class="nav-item"><a class="nav-link"><a href="javascript:void(0);" onclick="openLoginPopup()">Account</a></li>
                     <form action="{{ route('logout') }}" method="post">
                          @csrf
                      <button type="submit" class="btn">Log out</button>
