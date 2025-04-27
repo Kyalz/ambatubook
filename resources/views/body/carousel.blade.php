@@ -45,9 +45,9 @@
 
     <div class="carousel">
         <div class="slides" id="slideContainer">
-            <div class="slide"><img src="/images/4.jpg" alt="Buku 1"></div>
-            <div class="slide"><img src="/images/5.jpg" alt="Buku 2"></div>
-            <div class="slide"><img src="/images/6.jpg" alt="Buku 3"></div>
+            <div class="slide"><img src="/images/laut-banner-.jpg" alt="Buku 1"></div>
+            <div class="slide"><img src="/images/autumn in paris - banner.jpg" alt="Buku 2"></div>
+            <div class="slide"><img src="/images/hellocello-banner.jpeg" alt="Buku 3"></div>
         </div>
 
         <button class="nav-button prev" onclick="prevSlide()">&#10094;</button>
