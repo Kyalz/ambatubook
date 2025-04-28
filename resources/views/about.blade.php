@@ -96,6 +96,15 @@
         padding: 50px;
     }
 
+    .last-text p{
+        color: black;
+        font-weight: 500;
+
+    }
+
+    /* 
+    }
+
     .last img{
         border-radius: 20px;
         border: 2px solid var(--birutua);
@@ -117,7 +126,7 @@
         color: black;
         font-weight: 600;
         text-align: left;
-    }
+    } */
 
     .footer{
         bottom: 0;
@@ -153,9 +162,13 @@
         <div class="last">
             <p>AmbatuBook Hadir Disini</p>
 
-            <div class="himpit-satu">
+            <!-- <div class="himpit-satu">
                 <img src="./images/download (6).jpeg" alt="perpus" width="400">
                 <p>Jl. Perjuangan <br><br> SMK Negeri 1 Kota Cirebon <br><br> ambatubook@gmail.com <br><br> 0852-1845-0702</p>
+            </div> -->
+
+            <div class="last-text">
+                <p>Jl. Perjuangan | SMK Negeri 1 Kota Cirebon <br> ambatubook@gmail.com<br>0852-1845-0702</p>
             </div>
         </div>
 

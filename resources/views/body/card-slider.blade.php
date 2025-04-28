@@ -16,6 +16,7 @@
     --putih: rgb(245, 252, 255);
     --birutua: rgb(103, 212, 255);
     --birumuda: rgb(150, 225, 255);
+    --biruterang: rgb(214, 243, 255);
     --kuning: rgb(236, 255, 92);
     --hijau: rgb(92, 255, 133);
     --font:monsterrat;
@@ -76,12 +77,12 @@
     }
 
     .card-list .card-link .badge{
-        color: var(--hijau);
+        color: var(--birugelap);
         padding: 8px;
         margin: 16px 0 18px;
         font-size: 0.95rem;
         font-weight: 500;
-        background: var(--putih);
+        background: var(--biruterang);
         width:fit-content;
         border-radius: 50px;
     }
@@ -130,9 +131,8 @@
                     <a href="#" class="card-link">
                         <img src="./images/Luka Cita.jpeg" alt="Card-Image" class="card-image">
                 
-                        <p class="badge">Developer</p>
-                        <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quas culpa assumenda repudiandae!
+                        <p class="badge">Novel</p>
+                        <h2 class="card-title">Mengisahkan tentang dua pemimpi yang dikhianati oleh cita-cita mereka sendiri. <br><br> Valerie Patkar
                         </h2>
                         <button class="card-button material-symbols-outlined">arrow_forward_ios</button>
                     </a>
@@ -142,9 +142,8 @@
                     <a href="#" class="card-link">
                         <img src="./images/ensiklopedia kiamat.jpg" alt="Card-Image" class="card-image">
                 
-                        <p class="badge">Gamer</p>
-                        <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quas culpa assumenda repudiandae!
+                        <p class="badge">Ensiklopedia</p>
+                        <h2 class="card-title">Sebuah buku yang mengupas tentang tanda-tanda kiamat menurut perspektif islam. <br><br> Tim Gema Insani
                         </h2>
                         <button class="card-button material-symbols-outlined">arrow_forward_ios</button>
                     </a>
@@ -152,11 +151,10 @@
 
                 <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
-                        <img src="./images/kkpk juara sejati.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
+                        <img src="./images/kkpk2.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
                 
-                        <p class="badge">Anjing</p>
-                        <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quas culpa assumenda repudiandae!
+                        <p class="badge">Komik</p>
+                        <h2 class="card-title">Proses Mika belajar bersabar, menghadapi tantangan, dan memahami sifat kesabaran. <br><br> Helmy Aulia
                         </h2>
                         <button class="card-button material-symbols-outlined">arrow_forward_ios</button>
                     </a>
@@ -167,9 +165,8 @@
                     <a href="#" class="card-link">
                         <img src="./images/kamus indo.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
                 
-                        <p class="badge">Artist</p>
-                        <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quas culpa assumenda repudiandae!
+                        <p class="badge">Kamus</p>
+                        <h2 class="card-title">Paduan lengkap kumpulan kosakata bahasa Indonesia sesuai dengan KBBI terbaru. <br><br><br>
                         </h2>
                         <button class="card-button material-symbols-outlined">arrow_forward_ios</button>
                     </a>
@@ -180,9 +177,8 @@
                     <a href="#" class="card-link">
                         <img src="./images/phyton.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
                 
-                        <p class="badge">Masker</p>
-                        <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quas culpa assumenda repudiandae!
+                        <p class="badge">Pelajaran</p>
+                        <h2 class="card-title">Panduan lengkap mengolah data menggunakan bahasa pemrograman Phyton dan Pandas. <br><br>
                         </h2>
                         <button class="card-button material-symbols-outlined">arrow_forward_ios</button>
                     </a>

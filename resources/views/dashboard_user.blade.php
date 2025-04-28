@@ -60,6 +60,8 @@
             margin: auto;
             margin-top: 5%;
             border-radius: 40px;
+            color: var(--putih);
+            font-weight:600;
         }
 
         .about > h2{
@@ -136,6 +138,8 @@
 
         .serve-text{
             padding-top: 30px;
+            color: var(--birugelap);
+            font-weight: 600;
         }
 
         .servetext .text .first{

@@ -20,10 +20,8 @@
     .footer{
         width: 100%;
         background-color: var(--putih);
-        color: var(--birugelap);
-        padding-top: 2%;
-        padding-bottom: 2%;
-       
+        color: var(--birutua);
+        min-height: 200px;
     }
 
     .bawah{
@@ -40,34 +38,36 @@
         
     }
 
-    .alamat{
+    .alamat, .halaman{
         text-align: justify;
+        font-size: 18px;
         line-height: 25px;
-    }
-
-    .halaman{
-        text-align:justify;
-        line-height: 25px;
+        font-weight: 600;
     }
 
     .halaman li{
         list-style:none;
+        margin: 10px;
     }
 
     .halaman li a {
         text-decoration: none;
-        color: var(--birugelap);
+        color: var(--birutua);
+        padding: 7px;
+        transition: background-color 0.3s ease-in-out;
+        border-radius: 8px;
     }
 
     .halaman li a:hover{
-        color: rgb(53, 135, 168);
-
+        color: var(--putih);
+        background-color: var(--birutua);
+        transition-duration: 0.5 ease-in-out;
     }
 
     .head{
         margin-bottom: 20px;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 25px;
+        font-weight: 700;
     }
 </style>
 
@@ -88,10 +88,10 @@
             <div class="halaman">
                 <ul>
                     <p class="head">Explore</p>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Book</a></li>
-                    <li><a href="#">Account</a></li>
+                    <li><a href="dashboard_user">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="books">Book</a></li>
+                    <li><a href="account">Account</a></li>
                 </ul>
             </div>
         </div>
