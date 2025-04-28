@@ -33,7 +33,7 @@
         align-items: center;
         justify-content: center;
         min-height: 100vh;
-        background:linear-gradient(var(--putih), #CED6FB);
+        background:linear-gradient(var(--putih), var(--birutua));
     }
 
     .card-wrapper {
@@ -128,7 +128,7 @@
             <ul class="card-list swiper-wrapper">
                 <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
-                        <img src="./images/4.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
+                        <img src="./images/Luka Cita.jpeg" alt="Card-Image" class="card-image">
                 
                         <p class="badge">Developer</p>
                         <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -140,7 +140,7 @@
 
                 <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
-                        <img src="./images/4.jpg" alt="Card-Image" class="card-image">
+                        <img src="./images/ensiklopedia kiamat.jpg" alt="Card-Image" class="card-image">
                 
                         <p class="badge">Gamer</p>
                         <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -152,7 +152,7 @@
 
                 <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
-                        <img src="./images/4.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
+                        <img src="./images/kkpk juara sejati.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
                 
                         <p class="badge">Anjing</p>
                         <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -165,7 +165,7 @@
 
                 <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
-                        <img src="./images/4.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
+                        <img src="./images/kamus indo.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
                 
                         <p class="badge">Artist</p>
                         <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -178,7 +178,7 @@
 
                 <li class="card-item swiper-slide">
                     <a href="#" class="card-link">
-                        <img src="./images/4.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
+                        <img src="./images/phyton.jpg" alt="Card-Image" class="card-image" width="400px" height="auto">
                 
                         <p class="badge">Masker</p>
                         <h2 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. 

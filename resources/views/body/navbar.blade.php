@@ -82,13 +82,14 @@
 
 <nav class="nav">
         <div class="container">
-            <img src="/images/ambatubook.png" alt="logo" />
+            <img src="/images/ambatubook-birutua.png" alt="logo" />
+            <!-- <img src="/images/ambatubook.png" alt="logo" /> -->
             <div class="collapse">
                 <ul class="navbar">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Books</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Account</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard_user">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="books">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="account">Account</a></li>
                     <form action="{{ route('logout') }}" method="post">
                          @csrf
                      <button type="submit" class="btn">Log out</button>

@@ -5,15 +5,31 @@
     @section('title', 'Dashboard')
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <style>
+
+:root {
+    --putih: rgb(245, 252, 255);
+    --birutua: rgb(103, 212, 255);
+    --birumuda: rgb(150, 225, 255);
+    --birugelap: rgb(51, 176, 225);
+    --kuning: rgb(236, 255, 92);
+    --hijau: rgb(92, 255, 133);
+    --font: montserrat;
+}
+
+   
+
         *{
             padding: 0;
             margin: 0;
+            margin: auto;
+            font-family: montserrat;
+            
         }
 
         /* judul text */
 
         .slider > .text{
-            margin-top: 70px;
+            margin-top: 10em;
             padding: 8px;
             margin-bottom: 11px;
             justify-content: center;
@@ -27,9 +43,9 @@
 
         .first{
             letter-spacing: 3px;
-            font-size: 35px;
-            color: rgb(137, 204, 231);
-            font-weight: 600;
+            font-size: 40px;
+            color: var(--birugelap);
+            font-weight: 700;
         }
 
         .second{
@@ -66,13 +82,14 @@
             width: 90%;
             margin: auto;
             margin-top: 5%;
+            margin-bottom: 5%;
         }
 
         .category{
             margin: 10px;
             list-style: none;
-            border: 1px solid rgb(137, 204, 231);
-            background-color: rgb(137, 204, 231);
+            border: 1px solid var(--birutua);
+            background-color: var(--birumuda);
             padding: 6px;
             border-radius: 50px;
             width: 150px;
@@ -87,43 +104,22 @@
             gap: 20px;               /* jarak antar item */
             list-style: none;
             height: 80px;           /* kasih tinggi kalau mau vertical center */
-            border: 2px solid rgb(137, 204, 231);
-            background-color: rgb(241, 241, 241);
+            border: 2px solid var(--birutua);
+            background-color: var(--putih);
             border-radius: 37px;
         }
 
-        /* best kategori */
         .best{
-            justify-content: space-between;
-            display: flex;
-            gap: 5%;
-            width: 60%;
+            width: 80%;
             margin: auto; 
+            height: fit-content;
             justify-content: center;
         }
 
-        .best-cat{
-            margin-top: 3%;
-            
+        .best-txt{
+            margin-bottom: 3%;
         }
-
-        .kolom{
-            background-color:rgb(241, 241, 241);
-            border: 2px solid rgb(137, 204, 231);
-            border-radius: 20px;
-            max-width: 200px;
-            height: 300px;
-            margin-top: 20px;
-        }
-
-        .best .detail{
-            text-align: center;
-            margin-top: 25px;
-        }
-
-        .gambar > img{
-            border-radius: 20px;
-        }
+       
 
         /* Service */
         .service{
@@ -134,17 +130,26 @@
            margin-top: 2%;
         }
 
+        .servetext{
+            margin-top: 5%;
+        }
+
         .serve-text{
-            margin-top: 3%;
+            padding-top: 30px;
+        }
+
+        .servetext .text .first{
+            color: var(--putih);
         }
 
         .illust{
           text-align: center;
           padding: 25px;
-          background-color: rgb(137, 204, 231);
+          background-color: var(--putih);
           margin: 10px;
           height: auto;
           border-radius: 20px;
+          border: 2px solid var(--birutua);
         }
 
         .footer{
@@ -189,11 +194,15 @@
          <div class="best-cat">  <!-- all -->
             <div class="best-txt">
                 <div class="text">
-                    <p class="first">Best #3</p>
+                    <p class="first">Kategori Buku</p>
                 </div>
             </div>
 
             <div class="best">
+              @include('body.card-slider');  
+            </div>
+
+             <!-- <div class="best">
             <div class="kolom">
                 <div class="gambar">
                 <img src="{{ asset('images/4.jpg') }}" class="img-fluid" alt="Buku" width="200"; height="200">
@@ -222,8 +231,8 @@
                     <h2>Judul Buku</h2>
                     <p>Kategori</p>
                 </div>
-            </div>
-            </div>
+            </div> 
+            </div>  -->
          </div>
 
          <div class="about">
@@ -233,7 +242,7 @@
             </p>
         </div>
 
-        <div class="serve-text">
+        <div class="servetext">
         <div class="text">
             <p class="first">What Can We Do?</p>
         </div>

@@ -85,6 +85,7 @@
 
     .last{
         background-color: var(--putih);
+        padding-bottom: 3%;
     }
 
     .last p {
@@ -118,6 +119,9 @@
         text-align: left;
     }
 
+    .footer{
+        bottom: 0;
+    }
 </style>
 <body>
     <div class="navbar">
@@ -154,7 +158,12 @@
                 <p>Jl. Perjuangan <br><br> SMK Negeri 1 Kota Cirebon <br><br> ambatubook@gmail.com <br><br> 0852-1845-0702</p>
             </div>
         </div>
+
        
+        <div class="footer">
+              @include('body.footer');
+        </div>
+      
 
 </body>
 </html>
